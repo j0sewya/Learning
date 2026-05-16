@@ -21,26 +21,28 @@
 
         <div class="row">
             <h2>SIGN UP</h2>
+        <div class="content">
 
         <form action="" method="post" class="sign-in-form">
-            <label for="fullName">FullName: </label><br>
-            <input type="text" id="fullName" name="fullName" placeholder="John Doe"><br>
+            <label for="fullName">FullName: </label>
+            <input type="fullName" id="fullName" name="fullName" placeholder="John Doe" required><br>
 
             <label for="number">Phone number: </label>
-            <input type="number" id="number" placeholder="07XXXXXXXX"><br>
+            <input type="number" id="number" name="number" placeholder="07XXXXXXXX" required><br>
 
             <label for="email">Email: </label>
-            <input type="email" id="email" placeholder="name@gmail.com"><br>
+            <input type="email" id="email" name="email" placeholder="name@gmail.com" required><br>
 
             <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter password"><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" required><br>
 
             <label for="confirmPassword">Confirm password</label>
-            <input type="password" id="password" placeholder="Confirm password"><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password" required><br>
 
             <input type="submit" value="Sign In">
         </form>
 
+        </div>
         </div>
         <div class="footer">
             &#169; 2026 Jose Inc. All rights reserved.
