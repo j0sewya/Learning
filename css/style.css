@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: purple;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+    border: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: black;
+    border: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toplinks {
+    background-color: rgb(70, 44, 125);
+    overflow: hidden;
+}
+
+.toplinks a{
+    float: left;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.toplinks a:hover{
+    background-color: purple;
+    color: violet;
+    text-decoration: none;
+}
+
+.toplinks-right{
+    float: right;
+}
+
+.banner{
+    background-color: rgb(131, 28, 145);
+    padding: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+.content{
+    width: 70%;
+    float: left;
+    padding: 20px;
+    background-color: rgb(213, 82, 163);
+    color: black;
+    font-size: medium;
+}
+
+.sidebar{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    background-color: rgb(255, 112, 191);
+    color: black;
+    font-size: medium;
+}
+
+.footer{
+    background-color: rgb(70, 44, 125);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
+
+.sign-in-form{
+
+}
