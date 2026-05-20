@@ -100,7 +100,7 @@ h2{
 .sign-in-form input[type="email"],
 .sign-in-form input[type="password"]
 {
-    width: 100%;
+    width: 70%;
     padding: 10px;
     margin: 5px 0 10px 0;
     border: 1px solid violet;
