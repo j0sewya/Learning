@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0;
-    color: purple;
+    /* color: purple; */
 }
 
 *{
@@ -20,6 +20,7 @@ h2{
     color: black;
     border: 1px;
     font-family: Arial, Helvetica, sans-serif;
+    padding :10px;
 }
 
 .toplinks {
@@ -118,4 +119,15 @@ h2{
 .sign-in-form input[type="submit"]:hover
 {
     background-color: violet;
+}
+.idk{
+    width: auto;
+    height: auto;
+    padding:240px;
+    background-image: url("../images/kag.png");
+    background-color: violet;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:green;
+
 }
